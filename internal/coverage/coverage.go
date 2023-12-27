@@ -96,9 +96,9 @@ func NewWithCmd(cmdContext execContext, workdir string, mod gomodule.GoModule, o
 func (c *Coverage) Run() (Result, error) {
 	log.Infof("Gathering coverage... ")
 	_ = os.Chdir(c.mod.Root)
-	if err := c.downloadModules(); err != nil {
-		return Result{}, fmt.Errorf("impossible to download modules: %w", err)
-	}
+	//if err := c.downloadModules(); err != nil {
+	//	return Result{}, fmt.Errorf("impossible to download modules: %w", err)
+	//}
 	elapsed, err := c.executeCoverage()
 	if err != nil {
 		return Result{}, fmt.Errorf("impossible to executeCoverage coverage: %w", err)
