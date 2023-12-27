@@ -27,17 +27,17 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/go-gremlins/gremlins/internal/coverage"
-	"github.com/go-gremlins/gremlins/internal/diff"
-	"github.com/go-gremlins/gremlins/internal/engine"
-	"github.com/go-gremlins/gremlins/internal/engine/workdir"
-	"github.com/go-gremlins/gremlins/internal/log"
-	"github.com/go-gremlins/gremlins/internal/mutator"
-	"github.com/go-gremlins/gremlins/internal/report"
+	"github.com/go-maxhub/gremlins/core/coverage"
+	"github.com/go-maxhub/gremlins/core/diff"
+	"github.com/go-maxhub/gremlins/core/engine"
+	"github.com/go-maxhub/gremlins/core/engine/workdir"
+	"github.com/go-maxhub/gremlins/core/log"
+	"github.com/go-maxhub/gremlins/core/mutator"
+	"github.com/go-maxhub/gremlins/core/report"
 
-	"github.com/go-gremlins/gremlins/cmd/internal/flags"
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/gomodule"
+	"github.com/go-maxhub/gremlins/cmd/flags"
+	"github.com/go-maxhub/gremlins/core/configuration"
+	"github.com/go-maxhub/gremlins/core/gomodule"
 )
 
 type unleashCmd struct {

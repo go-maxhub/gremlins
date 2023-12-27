@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-gremlins/gremlins/internal/configuration"
-	"github.com/go-gremlins/gremlins/internal/mutator"
+	"github.com/go-maxhub/gremlins/core/configuration"
+	"github.com/go-maxhub/gremlins/core/mutator"
 )
 
 func TestUnleash(t *testing.T) {
