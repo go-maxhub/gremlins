@@ -1,4 +1,4 @@
-module github.com/go-gremlins/gremlins
+module github.com/go-maxhub/gremlins
 
 go 1.21
 
@@ -6,6 +6,7 @@ require (
 	github.com/MakeNowJust/heredoc v1.0.0
 	github.com/bluekeyes/go-gitdiff v0.7.1
 	github.com/fatih/color v1.16.0
+	github.com/go-gremlins/gremlins v0.5.0
 	github.com/google/go-cmp v0.6.0
 	github.com/hako/durafmt v0.0.0-20210608085754-5c1018a4e16b
 	github.com/hectane/go-acl v0.0.0-20230122075934-ca0b05cb1adb
