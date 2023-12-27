@@ -1,8 +1,4 @@
-<p align="center" style="text-align: center">
-  <img alt="Gremlins mascotte" src="docs/docs/assets/images/gremlins_mascotte.png" />
-  <h1 align="center" style="text-align: center">Gremlins</h1>
-  <p align="center" style="text-align: center">A mutation testing tool for Go</p>
-</p>
+## Gremlins
 
 Gremlins is a mutation testing tool for Go. It has been made to work well on _smallish_ Go modules, for example
 _microservices_, on which it helps validate the tests, aids the TDD process and can be used as a CI quality gate.
